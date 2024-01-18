@@ -22,7 +22,7 @@ MyArticle est une application web développée avec React et Next.js qui permet 
 
 ## Structure du Projet
 - `/pages` : Contient les pages Next.js.
-- `/components` : Contient les composants React réutilisables.
+- `/components` : Contient les composants réutilisables.
 - `/api` : Contient les fichiers d'API pour la gestion de l'authentification.
 
 ## Dépendances
