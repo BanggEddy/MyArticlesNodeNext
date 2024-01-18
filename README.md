@@ -1,7 +1,7 @@
-# MyArticleSesame
+# MyArticle
 
 ## Description
-MyArticleSesame est une application web développée avec React et Next.js qui permet aux utilisateurs de se connecter, de consulter des articles et de se déconnecter. Les données des articles sont récupérées à partir de l'API Builder.io.
+MyArticle est une application web développée avec React et Next.js qui permet aux utilisateurs de se connecter, de consulter des articles et de se déconnecter. Les données des articles sont récupérées à partir de l'API Builder.io.
 
 ## Fonctionnalités
 - Connexion sécurisée avec validation côté client et côté serveur.
@@ -26,12 +26,8 @@ MyArticleSesame est une application web développée avec React et Next.js qui p
 - `/api` : Contient les fichiers d'API pour la gestion de l'authentification.
 
 ## Dépendances
-- React
 - Next.js
 - js-cookie
-
-## Auteur
-[Votre Nom]
 
 ## Licence
 Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
