@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# MyArticleSesame
 
-## Getting Started
+## Description
+MyArticleSesame est une application web développée avec React et Next.js qui permet aux utilisateurs de se connecter, de consulter des articles et de se déconnecter. Les données des articles sont récupérées à partir de l'API Builder.io.
 
-First, run the development server:
+## Fonctionnalités
+- Connexion sécurisée avec validation côté client et côté serveur.
+- Récupération des articles à partir de l'API Builder.io.
+- Permet à l'utilisateur de rester connecté en enregistrant un cookie.
+- Déconnexion de l'utilisateur avec suppression du cookie.
+- Intégration de conditions de validation pour les champs lors de la connexion et de l'authentification.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Installation
+1. Clonez ce dépôt : `git clone https://github.com/#/MyArticlesNodeNext.git`
+2. Accédez au répertoire du projet : `cd MyArticlesNodeNext`
+3. Installez les dépendances : `npm install`
+4. Utilisez MongoDB Compass pour accéder à la base de données nommée "myarticles". Explorez la collection "users" qui contient les champs suivants : "email", "password", et "role".
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Utilisation
+1. Lancez l'application en mode développement : `npm run dev`
+2. Accédez à l'application dans votre navigateur : `http://localhost:3000`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Structure du Projet
+- `/pages` : Contient les pages Next.js.
+- `/components` : Contient les composants React réutilisables.
+- `/api` : Contient les fichiers d'API pour la gestion de l'authentification.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Dépendances
+- React
+- Next.js
+- js-cookie
 
-## Learn More
+## Auteur
+[Votre Nom]
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Licence
+Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
